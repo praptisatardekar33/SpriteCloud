@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\Admin\IdeaProjects\SpriteCloud_UI">
+        <classes>
+            <class name="BaseTest.LoginTest">
+                <methods>
+                    <include name="loadUrl"/>
+                </methods>
+            </class>
+            <class name="BaseTest.ClickTest">
+                <methods>
+                    <include name="ScenarioClick"/>
+                </methods>
+            </class>
+            <class name="BaseTest.TextInputTest">
+                <methods>
+                    <include name="ScenarioTextInput"/>
+                </methods>
+            </class>
+            <class name="BaseTest.DynamicIDTest">
+                <methods>
+                    <include name="ScenarioDynamicID"/>
+                </methods>
+            </class>
+            <class name="BaseTest.LoadDelayTest">
+                <methods>
+                    <include name="ScenarioLoadDelay"/>
+                </methods>
+            </class>
+            <class name="BaseTest.ScrollBarTest">
+                <methods>
+                    <include name="ScenarioScrollBar"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
